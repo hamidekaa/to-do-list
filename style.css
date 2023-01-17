@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Martian+Mono:wght@500&family=Sofia+Sans+Extra+Condensed&family=Sorts+Mill+Goudy:ital@1&display=swap');
+
+body{
+    background-color: rgb(167, 172, 180);
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(215, 224, 229);
+    transform: translate(-50%,-50%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 460px;
+    height: 600px;
+    text-align: center;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    border-radius: 10px;
+    
+      
+}
+h1{
+    margin: 12px 0;
+    color: rgb(49, 55, 55);
+}
+
+.add-element{
+    margin: 12px 0;
+
+}
+input{
+    padding: 6px 4px;
+    width: 70%;
+}
+button{
+    padding: 7px 14px;
+    background-color: rgb(170, 190, 225);
+    border: none;
+    border-radius: 4px;
+    color:rgb(49, 55, 55);
+}
+
+.element-list{
+    height: 550px;
+    overflow-y: auto;
+}
+
+ul{
+    padding: 15px;
+}
+li{
+    list-style: none;
+    padding: 10px 5px;
+    background-color: rgb(119, 143, 207);
+    margin: 12px 0;
+    /* box-shadow: 0 2px 8px rgba(241, 210, 210, 0.1); */
+    border-radius: 3px;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: rgb(208, 214, 223);
+}
+
+li:hover{
+    background-color: rgb(208, 214, 223);
+}
+.checked{
+    text-decoration: line-through;
+    background-color: rgb(162, 166, 191);
+}
+
+
